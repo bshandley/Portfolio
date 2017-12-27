@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+        <script src="js/fontawesome-all.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -28,37 +28,83 @@
                     <h1 class="title ">
                         Bradley S Handley
                     </h1>
-                    <h2 class="subtitle">
-                        Web Developer | Nashville, TN
-                    </h2>
+                    <div class="columns">
+                        <div class="column is-half">
+                            <article class="media">
+                                <figure class="media-left">
+                                    <p class="image is-128x128">
+                                        <img src="./img/me.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>Web Developer</strong>
+                                            <br>
+                                            Hey there! I'm Bradley and I'm an application developer and web developer based in Nashville, TN. I enjoy learning new programming languages, vegan food, and Star Trek anything (of course).
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="column is-offset-one-quarter">
+                            <div><i class="far fa-map-marker"></i> Nashville, TN</div>
+                            <div><a href=" href="mailto:bshandley@gmail.com"><i class="far fa-envelope"></i> bshandley@gmail.com</a></div>
+                            <div><i class="fab fa-skype"></i> bshandley</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
         <section class="section">
             <div class="container">
-                <div class="content">
-                    <h1>About</h1>
-                    <p>Hey there! I'm Bradley and I'm an application developer and web developer based in Nashville, TN. I enjoy learning new programming languages, vegan food, and Star Trek anything (of course).</p>
-                    <h1>Skills</h1>
-                    <p>
-                        <div><strong>Strong:</strong> Javascript, React, C#, Boostrap, HTML5, CSS3, less, sass</div>
-                        <div><strong>Proficient: </strong>AngularJS, NodeJS, SQL</div>
-                        <div><strong>Learning: </strong>VueJS, MongoDB</div>
-                    </p>
-                    <h1>Relevant Experience</h1>
-                    <h4>Surgery Partners (2017)</h4>
-                    <p>Application Developer | Nashville, TN</p>
-                    <ul>
-                        <li>Responsible for migrating outdated internal tools from PHP to .NET and React frameworks</li>
-                        <li>Worked on small 3 person team, quickly filling the roll as the go-to person for frontend functionality</li>
-                    </ul>
-                    <h4>Direct General (2013-2017)</h4>
-                    <p>.NET Developer | Nashville, TN</p>
-                    <ul>
-                        <li>Was the primary developer responsible for writing a new internal interface for writing and servicing
-                        insurance contracts using .NET and KnockoutJS framework </li>
-                        <li>Was the primary developer of a customer-facing kiosk application for servicing insurance contracts using AngularJS</li>
-                    </ul>
+                <div class="columns">
+                    <div class="column is-half">
+                        <h1 class="is-size-3">Skills</h1>
+                        <div>
+                            <label class="label"><i class="fab fa-js-square"></i> Javascript</label>
+                            <progress class="progress" value="95" max="100">95%</progress>
+                        </div>
+                        <div>
+                            <label class="label"><i class="fab fa-react"></i> React</label>
+                            <progress class="progress" value="90" max="100">90%</progress>
+                        </div>
+                        <div>
+                            <label class="label"><i class="fab fa-node-js"></i> NodeJS</label>
+                            <progress class="progress" value="70" max="100">70%</progress>
+                        </div>
+                        <div>
+                            <label class="label"><i class="fab fa-vuejs"></i> Vue</label>
+                            <progress class="progress" value="60" max="100">60%</progress>
+                        </div>
+                        <div>
+                            <label class="label"><i class="fab fa-angular"></i> Angular</label>
+                            <progress class="progress" value="50" max="100">50%</progress>
+                        </div>
+                        <div>
+                            <label class="label"><i class="fas fa-database"></i> MongoDB</label>
+                            <progress class="progress" value="30" max="100">30%</progress>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="content">
+                            <h1>Relevant Experience</h1>
+                            <h4>Surgery Partners (2017)</h4>
+                            <p>Application Developer | Nashville, TN</p>
+                            <ul>
+                                <li>Responsible for migrating outdated internal tools from PHP to .NET and React frameworks</li>
+                                <li>Worked on small 3 person team, quickly filling the roll as the go-to person for frontend functionality</li>
+                            </ul>
+                            <h4>Direct General (2013-2017)</h4>
+                            <p>.NET Developer | Nashville, TN</p>
+                            <ul>
+                                <li>Was the primary developer responsible for writing a new internal interface for writing and servicing
+                                insurance contracts using .NET and KnockoutJS framework </li>
+                                <li>Was the primary developer of a customer-facing kiosk application for servicing insurance contracts using AngularJS</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
