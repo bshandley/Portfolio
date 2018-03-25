@@ -95,7 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+a {
+    color: inherit !important
+}
+a:hover {
+    color: inherit !important
+}
 
 
 
